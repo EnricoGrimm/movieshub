@@ -1,0 +1,57 @@
+[
+    {
+        "name": "torrix/laravel-ui-uikit",
+        "version": "v3.3.0",
+        "version_normalized": "3.3.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/torrix/laravel-ui-uikit.git",
+            "reference": "a141eade3a13c247a6b2794473efaa94a9e5e5ee"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/torrix/laravel-ui-uikit/zipball/a141eade3a13c247a6b2794473efaa94a9e5e5ee",
+            "reference": "a141eade3a13c247a6b2794473efaa94a9e5e5ee",
+            "shasum": ""
+        },
+        "require-dev": {
+            "laravel/ui": "^1.0",
+            "roave/security-advisories": "dev-master"
+        },
+        "time": "2020-02-01T12:35:17+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Torrix\\Providers\\UikitServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Torrix\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            },
+            {
+                "name": "Matt Fletcher",
+                "email": "matt@torrix.uk"
+            }
+        ],
+        "description": "Laravel UI preset for UIkit.",
+        "keywords": [
+            "laravel",
+            "ui",
+            "uikit"
+        ]
+    }
+]

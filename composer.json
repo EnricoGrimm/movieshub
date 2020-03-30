@@ -1,0 +1,5 @@
+{
+    "require": {
+        "torrix/laravel-ui-uikit": "^3.3"
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "abe63c68a3dc4b429cbd86836cba2238",
+    "packages": [
+        {
+            "name": "torrix/laravel-ui-uikit",
+            "version": "v3.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/torrix/laravel-ui-uikit.git",
+                "reference": "a141eade3a13c247a6b2794473efaa94a9e5e5ee"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/torrix/laravel-ui-uikit/zipball/a141eade3a13c247a6b2794473efaa94a9e5e5ee",
+                "reference": "a141eade3a13c247a6b2794473efaa94a9e5e5ee",
+                "shasum": ""
+            },
+            "require-dev": {
+                "laravel/ui": "^1.0",
+                "roave/security-advisories": "dev-master"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Torrix\\Providers\\UikitServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Torrix\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                },
+                {
+                    "name": "Matt Fletcher",
+                    "email": "matt@torrix.uk"
+                }
+            ],
+            "description": "Laravel UI preset for UIkit.",
+            "keywords": [
+                "laravel",
+                "ui",
+                "uikit"
+            ],
+            "time": "2020-02-01T12:35:17+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}
